@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1> Calculadora</h1>
+        <label>Primeiro número</label><br>
+        <input type="number" id="n1"><br>
+
+        <label>Segundo número</label><br>
+        <input type="number" id="n2"><br>
+
+        <button onclick="somar()">Somar</button>
+        <button onclick="subtrair()">Subtrair</button>
+        <button onclick="multiplicar()">Multiplicar</button>
+        <button onclick="dividir()">Dividir</button>
+        <button onclick="areaT()">Área do triângulo</button>
+        <button onclick="areaQ()">Área do quadrado</button>
+        <button onclick="idade()">Maior de idade</button>
+        <button onclick="retirar()">Retirar 10%</button>
+        <button onclick="lucro()">Lucro de 15%</button>
+        <button onclick="desconto()">Desconto de 3%</button>
+        <button onclick="desconto2()">Desconto de 7%</button>
+        <button onclick="lucro2()">Lucro de 5%</button>
+        <button onclick="boascompras()">Valor da compra</button>
+
+        <div class="resultado-box">
+            O resultado é: <span id="resultado"></span>
+        </div>
+
+    </div>
+
+    <script src="js/calculo.js"></script>
+
+</body>
+</html>
